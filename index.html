@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swayamvar - Wedding & Event Booking + Buy & Sell Marketplace</title>
+  <script>
+    // APK Download function - Local direct link
+    function downloadAPK() {
+        const link = document.createElement('a');
+        link.href = 'swayamvar.apk';   // APK file in same folder
+        link.download = 'swayamvar.apk';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+  </script>
+</head>
+<body>
+  <h1>Welcome to Swayamvar</h1>
+  <p>Wedding & Event Booking + Buy & Sell Marketplace</p>
+  <button onclick="downloadAPK()">⬇️ Download App</button>
+</body>
+</html>
